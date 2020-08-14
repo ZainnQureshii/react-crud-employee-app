@@ -1,0 +1,7 @@
+.loader {
+  display: flex;
+  justify-content: center;
+}
+.loader img {
+  width: 150px;
+}

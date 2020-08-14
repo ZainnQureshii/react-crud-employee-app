@@ -1,0 +1,88 @@
+.employees {
+  padding: 20px;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.employeesList {
+  width: 100%;
+}
+.employeesList h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.employeesList h2 button {
+  margin: 0 3px;
+  padding: 6px 21px;
+  background: #6200ee;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 550;
+  cursor: pointer;
+}
+.employeesList table {
+  width: 100%;
+}
+.employeesList table tr:nth-child(odd) {
+  background: #f1f1f1;
+}
+.employeesList table thead tr th {
+  padding: 10px;
+  background: #fff;
+}
+.employeesList table tr td {
+  padding: 10px;
+  text-align: center;
+}
+.employeesList table tr td img {
+  width: 50px;
+}
+.employeesList table tr td button {
+  margin: 0 3px;
+  padding: 6px 21px;
+  background: #6200ee;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 550;
+  cursor: pointer;
+}
+.employeesList table tr td button:last-child {
+  background: #3700b3;
+}
+
+.editUser input[type="text"] {
+  padding: 5px 8px 4px;
+  border: 1px solid #ccc;
+}
+.editUser input[type="text"]:focus {
+  outline: 1px solid #ccc;
+}
+.editUser span {
+  display: block;
+  white-space: nowrap;
+}
+.editUser td[name="cancel"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.editUser td[name="cancel"] > span {
+  display: block;
+  width: 2px;
+  height: 13px;
+  background: red;
+  transform: rotate(-45deg);
+  margin-top: 10px;
+}
+.editUser td[name="cancel"] > span:nth-child(2) {
+  transform: rotate(45deg);
+  margin-left: -2px;
+}

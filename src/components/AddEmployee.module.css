@@ -1,0 +1,51 @@
+.addEmployee {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.addEmployee form {
+  width: 350px;
+  padding: 55px 30px;
+  margin: 0 auto;
+  display: block;
+  background: #3700b3;
+  color: #fff;
+  border-radius: 20px;
+}
+.addEmployee form > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.addEmployee form > div label {
+  font-size: 18px;
+}
+.addEmployee form > div input[type="text"] {
+  padding: 5px 7px;
+  border: 0;
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
+  background: #3700b3;
+  color: #fff;
+}
+.addEmployee form > div input:focus {
+  border-bottom: 1px solid #ccc;
+  outline: none;
+}
+.addEmployee form > button {
+  margin: 0 3px;
+  margin-top: 28px;
+  display: table;
+  margin-left: auto;
+  padding: 6px 21px;
+  background: #6200ee;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 550;
+  cursor: pointer;
+}
+
