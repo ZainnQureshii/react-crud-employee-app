@@ -20,7 +20,7 @@ class Employees extends Component {
 
   getUsers = async () => {
     try {
-      let users = await fetch('http://localhost:3000/users', {
+      let users = await fetch('http://localhost:3001/users', {
       });
       users = await users.json();
       this.setState({
@@ -35,7 +35,7 @@ class Employees extends Component {
   deleteUser = async (user) => {
     try {
       if(this.state.users.some(item => item.id === user.id)) {
-        await fetch(`http://localhost:3000/users/${user.id}`, {
+        await fetch(`http://localhost:3001/users/${user.id}`, {
           method: "DELETE",
           "Content-Type": "application/json"
         });
@@ -61,7 +61,7 @@ class Employees extends Component {
 
   addUser = async (form) => {
     try {
-      await fetch('http://localhost:3000/users/', {
+      await fetch('http://localhost:3001/users/', {
         method: "POST",
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form),
@@ -75,7 +75,7 @@ class Employees extends Component {
 
   editUser = async (userObj, id) => {
     try {
-      await fetch(`http://localhost:3000/users/${id}`, {
+      await fetch(`http://localhost:3001/users/${id}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(userObj)
