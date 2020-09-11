@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## How To Run
+
+First install the dependences with ```bash npm install ``` then install json-server with ```bash npm install -g json-server ``` and run ```bash json-server --watch db.json --port 3001 ``` and finally run react app with ```bash npm start ```
+
 ## Available Scripts
 
 In the project directory, you can run:
