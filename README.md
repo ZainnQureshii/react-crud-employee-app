@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## How To Run
 
-First install the dependences with ```bash npm install ``` then install json-server with ```bash npm install -g json-server ``` and run ```bash json-server --watch db.json --port 3001 ``` and finally run react app with ```bash npm start ```
+First install the dependences with ``` npm install ``` then install json-server with ``` npm install -g json-server ``` and run ``` json-server --watch db.json --port 3001 ``` and finally run react app with ``` npm start ```
 
 ## Available Scripts
 
